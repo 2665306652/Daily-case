@@ -1,0 +1,70 @@
+.liseContent {
+    width: 100%;
+    min-height: 400px;
+    .liseContent-title {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+    }
+    .licontent {
+        height: 100%;
+        width: 100%;
+        min-width: 1340px;
+        li:nth-child(4n+1){
+            padding-left: 0px;
+        }
+        li:nth-child(4n-1){
+         padding-right: 0px;
+     }
+       li {
+        list-style: none;
+        width: 25%;
+        padding: 20px;
+        height: 220px;
+        box-sizing: border-box;
+        display: inline-block;
+        .licontent-details {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            position: relative;
+            cursor: pointer;
+            img {
+                height: 180px;
+                width: 100%;
+            }
+            .licontent-details-title {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 120px;
+                background-color: rgba(0, 0, 0, 0.5);
+                overflow: hidden;
+                p {
+                    margin: 0;
+                    font-size: 14px;
+                    color: #fff;
+                    overflow: hidden;
+                    width: 100%;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                }
+                .licontent-title-txt {
+                    font-size: 14px;
+                    color: #fff;
+                    display: block;
+                    overflow : hidden; 
+                    text-overflow: ellipsis; 
+                    display: -webkit-box; 
+                    -webkit-line-clamp: 3; 
+                    -webkit-box-orient: vertical; 
+                    -webkit-line-clamp:3; 
+                }
+            }
+        }
+       }
+       
+    }
+}

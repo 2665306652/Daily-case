@@ -1,0 +1,14 @@
+/node_modules/
+*/.DS_Store
+/web
+.idea
+.git
+.DS_Store
+../.DS_Store
+.vscode
+../.idea/
+.git
+__MACOSX
+node_modules/
+npm-debug.log.*
+./runtime

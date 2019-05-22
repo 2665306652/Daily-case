@@ -1,0 +1,16 @@
+[
+    {
+        "note": "此处放本页面配置的相关注释",
+        "name": "admin/index",
+        "entry": "/src/admin/pages/index/index.js",
+        "chunks": ["vendor","group","admin/index"],
+        "template": "/src/admin/pages/index/index.html"
+    },
+    {
+        "note": "此处放本页面配置的相关注释",
+        "name": "index",
+        "entry": "/src/stage/pages/index/index.js",
+        "chunks": ["vendor","group","index"],
+        "template": "/src/stage/pages/index/index.html"
+    }
+]

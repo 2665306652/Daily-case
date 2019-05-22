@@ -1,0 +1,162 @@
+// 已废弃
+.liseContent {
+    width: 100%;
+    min-height: 400px;
+    .liseContent-title {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+    }
+    .licontent {
+        height: 100%;
+        width: 100%;
+        min-width: 1340px;
+        li:nth-child(4n+1){
+            padding-left: 0px;
+        }
+        li:nth-child(4n-1){
+         padding-right: 0px;
+     }
+       li {
+        list-style: none;
+        width: 25%;
+        padding: 20px;
+        height: 220px;
+        box-sizing: border-box;
+        display: inline-block;
+        .licontent-details {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            position: relative;
+            cursor: pointer;
+            img {
+                height: 180px;
+                width: 100%;
+            }
+            .licontent-details-title {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 120px;
+                background-color: rgba(0, 0, 0, 0.5);
+                overflow: hidden;
+                p {
+                    margin: 0;
+                    font-size: 14px;
+                    color: #fff;
+                    overflow: hidden;
+                    width: 100%;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                }
+                .licontent-title-txt {
+                    font-size: 14px;
+                    color: #fff;
+                    display: block;
+                    overflow : hidden; 
+                    text-overflow: ellipsis; 
+                    display: -webkit-box; 
+                    -webkit-line-clamp: 3; 
+                    -webkit-box-orient: vertical; 
+                    -webkit-line-clamp:3; 
+                }
+            }
+        }
+       }
+       
+    }
+}
+
+
+.testOne {
+    padding: 0;
+    margin: 0;
+  .calculator {
+    width: 360px;
+    height: 600px;
+    border: 2px solid ;
+    margin: 100px auto;
+    overflow: hidden;
+    .showData {
+        width: 360px;
+        height: 180px;
+        background-color: black;
+        position: relative;
+        span {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 48px;
+            text-align: right;
+            color: #fff;
+            background-color: black;
+            width: 100%;
+            outline: none;
+            border-radius: 0;
+            border: none;
+            line-height: 70px;
+            padding-right: 20px;
+            font-weight: bold;
+           
+        }
+    }
+    .keyboard {
+        width: 360px;
+        background-color: aqua;
+        list-style: none;
+        margin: 0;
+        position: relative;
+        .topData {
+            width: 270px;
+            float: left;
+            div {
+                display: inline-block;
+                width: 90px;
+                border: 1px solid #000;
+                height: 84px;
+                text-align: center;
+                line-height: 84px;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+        .rightData {
+            width: 90px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            div {
+                display: inline-block;
+                width: 90px;
+                border: 1px solid #000;
+                height: 84px;
+                text-align: center;
+                line-height: 84px;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+        .contentData {
+            width: 270px;
+            left: 0;
+            div {
+                display: inline-block;
+                width: 90px;
+                border: 1px solid #000;
+                height: 84px;
+                text-align: center;
+                line-height: 84px;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            div:nth-child(10){
+                width: 180px;
+            }
+        }
+       
+    }
+  }
+}
